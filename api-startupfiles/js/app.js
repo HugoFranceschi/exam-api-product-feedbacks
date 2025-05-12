@@ -39,13 +39,6 @@ wrapper.classList.add("feedback-wrapper");
 
 main.appendChild(wrapper);
 function info(vote, title, description, category, comment) {
-	const wrapper = document.createElement("section");
-	const main = document.querySelector(".feedback-page");
-
-	wrapper.classList.add("feedback-wrapper");
-
-	main.appendChild(wrapper);
-
 	const item = document.createElement("div");
 	item.classList.add("feedback-item");
 
